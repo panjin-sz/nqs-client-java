@@ -1,13 +1,13 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs.auth;
+package com.panjin.cloud.nqs.client.auth;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.panjin.cloud.nqs.ClientConfig;
-import com.panjin.cloud.nqs.util.AuthUtil;
+import com.panjin.cloud.nqs.client.ClientConfig;
+import com.panjin.cloud.nqs.client.util.AuthUtil;
 
 /**
  *
@@ -32,7 +32,7 @@ public class CloudAuthBackend implements AuthBackend {
     }
     
     /** 
-     * @see com.panjin.cloud.nqs.auth.AuthBackend#getUsername()
+     * @see com.panjin.cloud.nqs.client.auth.AuthBackend#getUsername()
      */
     @Override
     public String getUsername() {
@@ -40,7 +40,7 @@ public class CloudAuthBackend implements AuthBackend {
     }
 
     /** 
-     * @see com.panjin.cloud.nqs.auth.AuthBackend#getPassword()
+     * @see com.panjin.cloud.nqs.client.auth.AuthBackend#getPassword()
      */
     @Override
     public String getPassword() {

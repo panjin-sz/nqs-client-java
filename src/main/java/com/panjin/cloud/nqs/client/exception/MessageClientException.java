@@ -1,18 +1,18 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs.exception;
+package com.panjin.cloud.nqs.client.exception;
 
 /**
- * Exception that will throw when a connection has already been closed.
+ * Message client exception for the message client.
  *
  * @author panjin
- * @version $Id: AlreadyClosedException.java 2016年7月19日 下午6:22:37 $
+ * @version $Id: MessageClientException.java 2016年7月19日 下午6:21:43 $
  */
-public class AlreadyClosedException extends MessageClientException {
+public class MessageClientException extends Exception {
 
     /**  */
-    private static final long serialVersionUID = -6390513609228234957L;
+    private static final long serialVersionUID = 4587259635457438436L;
 
     /**
      * Constructor.
@@ -20,7 +20,7 @@ public class AlreadyClosedException extends MessageClientException {
      * @param message
      *            the message for the exception
      */
-    public AlreadyClosedException(String message) {
+    public MessageClientException(String message) {
         super(message);
     }
 
@@ -32,7 +32,7 @@ public class AlreadyClosedException extends MessageClientException {
      * @param cause
      *            the throwable object for the exception
      */
-    public AlreadyClosedException(String message, Throwable cause) {
+    public MessageClientException(String message, Throwable cause) {
         super(message, cause);
     }
 
@@ -42,7 +42,7 @@ public class AlreadyClosedException extends MessageClientException {
      * @param cause
      *            the throwable object for the exception
      */
-    public AlreadyClosedException(Throwable cause) {
+    public MessageClientException(Throwable cause) {
         super(cause);
     }
 }

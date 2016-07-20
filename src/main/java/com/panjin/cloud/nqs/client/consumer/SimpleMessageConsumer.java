@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs.consumer;
+package com.panjin.cloud.nqs.client.consumer;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -10,11 +10,11 @@ import java.util.concurrent.LinkedBlockingQueue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.panjin.cloud.nqs.AbstractSessionFactory;
-import com.panjin.cloud.nqs.AbstractSimpleClient;
-import com.panjin.cloud.nqs.Message;
-import com.panjin.cloud.nqs.exception.MessageClientException;
-import com.panjin.cloud.nqs.util.Utils;
+import com.panjin.cloud.nqs.client.AbstractSessionFactory;
+import com.panjin.cloud.nqs.client.AbstractSimpleClient;
+import com.panjin.cloud.nqs.client.Message;
+import com.panjin.cloud.nqs.client.exception.MessageClientException;
+import com.panjin.cloud.nqs.client.util.Utils;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.GetResponse;
 import com.rabbitmq.client.QueueingConsumer;

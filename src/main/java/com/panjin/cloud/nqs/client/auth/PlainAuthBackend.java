@@ -1,9 +1,9 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs.auth;
+package com.panjin.cloud.nqs.client.auth;
 
-import com.panjin.cloud.nqs.ClientConfig;
+import com.panjin.cloud.nqs.client.ClientConfig;
 
 /**
  * Plain auth, use accessKey as username, accessSecret as password.
@@ -23,7 +23,7 @@ public class PlainAuthBackend implements AuthBackend {
     }
 
     /** 
-     * @see com.panjin.cloud.nqs.auth.AuthBackend#getUsername()
+     * @see com.panjin.cloud.nqs.client.auth.AuthBackend#getUsername()
      */
     @Override
     public String getUsername() {
@@ -31,7 +31,7 @@ public class PlainAuthBackend implements AuthBackend {
     }
 
     /** 
-     * @see com.panjin.cloud.nqs.auth.AuthBackend#getPassword()
+     * @see com.panjin.cloud.nqs.client.auth.AuthBackend#getPassword()
      */
     @Override
     public String getPassword() {

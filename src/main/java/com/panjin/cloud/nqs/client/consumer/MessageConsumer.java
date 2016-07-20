@@ -1,11 +1,11 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs.consumer;
+package com.panjin.cloud.nqs.client.consumer;
 
-import com.panjin.cloud.nqs.Message;
-import com.panjin.cloud.nqs.Shutdownable;
-import com.panjin.cloud.nqs.exception.MessageClientException;
+import com.panjin.cloud.nqs.client.Message;
+import com.panjin.cloud.nqs.client.Shutdownable;
+import com.panjin.cloud.nqs.client.exception.MessageClientException;
 
 /**
  * Interface for message consumer.

@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs.push;
+package com.panjin.cloud.nqs.client.push;
 
 import java.io.IOException;
 import java.util.SortedSet;
@@ -10,12 +10,12 @@ import java.util.concurrent.TimeoutException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.panjin.cloud.nqs.AbstractSimpleClient;
-import com.panjin.cloud.nqs.ClientConfig;
-import com.panjin.cloud.nqs.Message;
-import com.panjin.cloud.nqs.exception.MessageClientException;
-import com.panjin.cloud.nqs.producer.ProducerConfig;
-import com.panjin.cloud.nqs.util.Utils;
+import com.panjin.cloud.nqs.client.AbstractSimpleClient;
+import com.panjin.cloud.nqs.client.ClientConfig;
+import com.panjin.cloud.nqs.client.Message;
+import com.panjin.cloud.nqs.client.exception.MessageClientException;
+import com.panjin.cloud.nqs.client.producer.ProducerConfig;
+import com.panjin.cloud.nqs.client.util.Utils;
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.MessageProperties;

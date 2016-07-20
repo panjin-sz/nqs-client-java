@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs;
+package com.panjin.cloud.nqs.client;
 
 /**
  * The client config for the session.

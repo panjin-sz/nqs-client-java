@@ -1,9 +1,9 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs;
+package com.panjin.cloud.nqs.client;
 
-import com.panjin.cloud.nqs.util.Utils;
+import com.panjin.cloud.nqs.client.util.Utils;
 
 /**
  * Abstract message session factory.

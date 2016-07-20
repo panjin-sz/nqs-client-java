@@ -1,9 +1,9 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs.consumer;
+package com.panjin.cloud.nqs.client.consumer;
 
-import com.panjin.cloud.nqs.Message;
+import com.panjin.cloud.nqs.client.Message;
 
 /**
  * Interface for message handler.

@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs.util;
+package com.panjin.cloud.nqs.client.util;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs.auth;
+package com.panjin.cloud.nqs.client.auth;
 
 /**
  * 获取RabbitMQ认证信息接口

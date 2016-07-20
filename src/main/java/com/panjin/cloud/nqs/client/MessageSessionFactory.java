@@ -1,13 +1,13 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs;
+package com.panjin.cloud.nqs.client;
 
-import com.panjin.cloud.nqs.consumer.ConsumerConfig;
-import com.panjin.cloud.nqs.consumer.MessageConsumer;
-import com.panjin.cloud.nqs.exception.MessageClientException;
-import com.panjin.cloud.nqs.producer.MessageProducer;
-import com.panjin.cloud.nqs.producer.ProducerConfig;
+import com.panjin.cloud.nqs.client.consumer.ConsumerConfig;
+import com.panjin.cloud.nqs.client.consumer.MessageConsumer;
+import com.panjin.cloud.nqs.client.exception.MessageClientException;
+import com.panjin.cloud.nqs.client.producer.MessageProducer;
+import com.panjin.cloud.nqs.client.producer.ProducerConfig;
 
 /**
  * The session factory interface for the message client.

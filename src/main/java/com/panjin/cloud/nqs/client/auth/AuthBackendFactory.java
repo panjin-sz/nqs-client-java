@@ -1,9 +1,9 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs.auth;
+package com.panjin.cloud.nqs.client.auth;
 
-import com.panjin.cloud.nqs.ClientConfig;
+import com.panjin.cloud.nqs.client.ClientConfig;
 
 /**
  * Factory for creating auth backend.

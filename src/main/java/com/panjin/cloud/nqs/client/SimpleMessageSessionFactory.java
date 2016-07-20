@@ -1,15 +1,15 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs;
+package com.panjin.cloud.nqs.client;
 
-import com.panjin.cloud.nqs.consumer.ConsumerConfig;
-import com.panjin.cloud.nqs.consumer.MessageConsumer;
-import com.panjin.cloud.nqs.consumer.SimpleMessageConsumer;
-import com.panjin.cloud.nqs.exception.MessageClientException;
-import com.panjin.cloud.nqs.producer.MessageProducer;
-import com.panjin.cloud.nqs.producer.ProducerConfig;
-import com.panjin.cloud.nqs.producer.SimpleMessageProducer;
+import com.panjin.cloud.nqs.client.consumer.ConsumerConfig;
+import com.panjin.cloud.nqs.client.consumer.MessageConsumer;
+import com.panjin.cloud.nqs.client.consumer.SimpleMessageConsumer;
+import com.panjin.cloud.nqs.client.exception.MessageClientException;
+import com.panjin.cloud.nqs.client.producer.MessageProducer;
+import com.panjin.cloud.nqs.client.producer.ProducerConfig;
+import com.panjin.cloud.nqs.client.producer.SimpleMessageProducer;
 
 /**
  *
@@ -30,7 +30,7 @@ public class SimpleMessageSessionFactory extends AbstractSessionFactory implemen
     }
 
     /**
-     * @see com.panjin.cloud.nqs.MessageSessionFactory#createProducer(com.panjin.cloud.nqs.producer.ProducerConfig)
+     * @see com.panjin.cloud.nqs.client.MessageSessionFactory#createProducer(com.panjin.cloud.nqs.client.producer.ProducerConfig)
      */
     @Override
     public MessageProducer createProducer(ProducerConfig producerConfig) throws MessageClientException {
@@ -38,7 +38,7 @@ public class SimpleMessageSessionFactory extends AbstractSessionFactory implemen
     }
 
     /**
-     * @see com.panjin.cloud.nqs.MessageSessionFactory#createConsumer(com.panjin.cloud.nqs.consumer.ConsumerConfig)
+     * @see com.panjin.cloud.nqs.client.MessageSessionFactory#createConsumer(com.panjin.cloud.nqs.client.consumer.ConsumerConfig)
      */
     @Override
     public MessageConsumer createConsumer(ConsumerConfig consumerConfig) throws MessageClientException {

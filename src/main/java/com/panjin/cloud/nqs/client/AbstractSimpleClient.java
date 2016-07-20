@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2011-2016 All Rights Reserved.
  */
-package com.panjin.cloud.nqs;
+package com.panjin.cloud.nqs.client;
 
 import java.io.IOException;
 import java.util.Map;
@@ -15,10 +15,10 @@ import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.RemovalCause;
 import com.google.common.cache.RemovalListener;
 import com.google.common.cache.RemovalNotification;
-import com.panjin.cloud.nqs.auth.AuthBackend;
-import com.panjin.cloud.nqs.auth.AuthBackendFactory;
-import com.panjin.cloud.nqs.exception.AlreadyClosedException;
-import com.panjin.cloud.nqs.exception.MessageClientException;
+import com.panjin.cloud.nqs.client.auth.AuthBackend;
+import com.panjin.cloud.nqs.client.auth.AuthBackendFactory;
+import com.panjin.cloud.nqs.client.exception.AlreadyClosedException;
+import com.panjin.cloud.nqs.client.exception.MessageClientException;
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
